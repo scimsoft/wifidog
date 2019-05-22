@@ -4,18 +4,15 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            @if (in_array('facebook', $social_login_providers))
-            <div class="card">
-                <div class="card-header">{{ __('Social Login') }}</div>
+	<form>
+		<div class="form-group row">
+    			<div class="col-md-6 offset-md-4">
+         			<a href="{{ url('/login/facebook') }}" class="btn btn-facebook"> Facebook</a>
+         			<a href="{{ url('/login/google') }}" class="btn btn-google-plus"> Google</a>
+    			</div>
+		</div>
+	</form>
 
-                <div class="card-body">
-                    <a class="btn btn-primary" href="/login/facebook" role="button">Continue with Facebook</a>
-                    <img src="http://www.facebook.com/favicon.ico" />
-                    <img src="http://m.facebook.com/favicon.ico" />
-                    <img src="http://static.xx.fbcdn.net/favicon.ico" />
-                </div>
-            </div>
-            @endif
 
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>

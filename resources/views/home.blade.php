@@ -6,8 +6,12 @@
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('dashboard') }}</div>
+			 <div class="card-body">
 
-                <div class="card-body">
+			<p>My name: {{Auth::user()->name}}</p>
+			<p>My Email: {{Auth::user()->email}}</p>
+			<img alt="{{Auth::user()->name}}" src="{{Auth::user()->image}}"/>
+               
                     @if (!empty($msg))
                         <div class="alert alert-info" role="alert">
                             {{ __($msg) }}
