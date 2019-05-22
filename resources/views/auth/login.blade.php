@@ -4,6 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+		<img src='img/logo_media.png'>
 	<form>
 		<div class="form-group row">
     			<div class="col-md-6 offset-md-4">
