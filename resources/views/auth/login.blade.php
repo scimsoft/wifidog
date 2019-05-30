@@ -4,18 +4,47 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <img class="d-block w-25" src='/img/logo_media.png'>
+
+                <img style="float: left; margin: 0px 15px 15px 0px;" class="d-block w-25" src='/img/logo_media.png'>
+                <div style="text-align: center"><h1>Playa Alta Beachclub </h1></div>
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
                                         aria-expanded="false" aria-controls="collapseOne">
-                                    <h2><span class="badge badge-secondary">Especialsidades</span></h2>
+
+                                    <h2><span class="badge badge-secondary">Especialidades</span></h2>
                                 </button>
                             </h5>
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/smoothies.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/sexonthebeach.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/pinacolada.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMenu"
+                                        aria-expanded="false" aria-controls="collapseOne">
+                                    <h2><span class="badge badge-secondary">Menu</span></h2>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseMenu" class="collapse" aria-labelledby="headingOne"
                              data-parent="#accordion">
                             <div class="card-body">
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -60,8 +89,10 @@
                                 </div>
 
                                 <form>
+                                    <div style="text-align: center"><h2>Login for Internet</h2></div>
                                     <div class="card">
-                                        <div class="card-header">{{ __('Login Social') }}</div>
+
+                                        <div class="card-header">{{ __('Social Loginn') }}</div>
                                         <div class="card-body">
                                             <div class="form-group row">
                                                 <div class="col-md-6 offset-md-4">
@@ -74,11 +105,12 @@
                                             </div>
                                         </div>
                                         <div>
+                                        </div>
                                 </form>
                                 @csrf
                                 @csrf
                                 <div class="card">
-                                    <div class="card-header">{{ __('Login email') }}</div>
+                                    <div class="card-header">{{ __('Email Login') }}</div>
 
                                     <div class="card-body">
                                         <form method="POST" action="{{ route('login') }}">
@@ -162,4 +194,5 @@
                 </div>
             </div>
         </div>
+    </div>
 @endsection
