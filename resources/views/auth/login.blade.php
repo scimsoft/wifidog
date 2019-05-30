@@ -13,8 +13,8 @@
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
                                         aria-expanded="false" aria-controls="collapseOne">
-
-                                    <h2><span class="badge badge-secondary">Especialidades</span></h2>
+                                    <img style="float: left; margin: 0px 15px 15px 0px; " src='/img/cocktai.png'>
+                                    <h2 style="vert-align: middle"><span class="badge badge-secondary">Especialidades</span></h2>
                                 </button>
                             </h5>
                         </div>
@@ -40,6 +40,7 @@
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMenu"
                                         aria-expanded="false" aria-controls="collapseOne">
+                                    <img style="float: left; margin: 0px 15px 15px 0px; " src='/img/menu.png'>
                                     <h2><span class="badge badge-secondary">Menu</span></h2>
                                 </button>
                             </h5>
@@ -50,14 +51,18 @@
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100" src="img/smoothies.jpg" alt="First slide">
+                                            <img class="d-block w-100" src="img/arroz.png" alt="First slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="img/sexonthebeach.jpg" alt="Second slide">
+                                            <img class="d-block w-100" src="img/ensaladaffrutas.png" alt="Second slide">
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100" src="img/pinacolada.jpg" alt="Third slide">
+                                            <img class="d-block w-100" src="img/lingua.png" alt="Third slide">
                                         </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/tomate.png" alt="Third slide">
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -68,6 +73,7 @@
                                     <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
+                                        <img style="float: left; margin: 0px 15px 15px 0px; " src='/img/wifi.png'>
                                         <h2><span class="badge badge-secondary">Internet</span></h2>
                                     </button>
                                 </h5>
