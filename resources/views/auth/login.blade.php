@@ -38,6 +38,33 @@
                         </div>
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEvent"
+                                        aria-expanded="false" aria-controls="collapseEvent">
+                                    <img style="float: left; margin: 0px 15px 15px 0px; " src='/img/evento.png'>
+                                    <h2 style="vert-align: middle"><span class="badge badge-secondary">Eventos</span></h2>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseEvent" class="collapse" aria-labelledby="headingOne"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/15junio.jpg" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/15junio.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/15junio.jpg" alt="Third slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseMenu"
                                         aria-expanded="false" aria-controls="collapseOne">
                                     <img style="float: left; margin: 0px 15px 15px 0px; " src='/img/menu.png'>
