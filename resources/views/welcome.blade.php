@@ -84,10 +84,7 @@
                     {{ config('app.name') }}
                 </div>
 
-                <div class="links">
-                    <a href="http://dev.wifidog.org/wiki/doc/developer/WiFiDogProtocol_V1">Documentation</a>
-                    <a href="https://github.com/wifidog/wifidog-auth-laravel">GitHub</a>
-                </div>
+
             </div>
         </div>
     </body>
