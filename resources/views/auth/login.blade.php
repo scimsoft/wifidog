@@ -6,7 +6,10 @@
             <div class="col-md-8">
 
                 <img style="float: left; margin: 0px 15px 15px 0px;" class="d-block w-25" src='/img/logo_media.png'>
-                <div style="text-align: center"><h1>Playa Alta Beachclub </h1></div>
+                <div style="text-align: center"><h1>Playa Alta Beachclub </h1>
+                <div  class="fb-like" data-href="https://www.facebook.com/chiringuito.playa.alta" data-width="" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+                </div>
+                <p></p>
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header" id="headingOne">
@@ -21,21 +24,42 @@
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
                              data-parent="#accordion">
                             <div class="card-body">
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div id="carouselCoctels" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img class="d-block w-100" src="img/smoothies.jpg" alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Smoothies</p></h2>
+
+                                            </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="img/sexonthebeach.jpg" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Sex on the Beach</p></h2>
+
+                                            </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="img/pinacolada.jpg" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Piña Colada</p></h2>
+
+                                            </div>
                                         </div>
                                     </div>
+                                    <a class="carousel-control-prev" href="#carouselCoctels" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselCoctels" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEvent"
@@ -48,7 +72,7 @@
                         <div id="collapseEvent" class="collapse" aria-labelledby="headingOne"
                              data-parent="#accordion">
                             <div class="card-body">
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div id="carouselEventos" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img class="d-block w-100" src="img/15junio.jpg" alt="First slide">
@@ -60,6 +84,14 @@
                                             <img class="d-block w-100" src="img/15junio.jpg" alt="Third slide">
                                         </div>
                                     </div>
+                                    <a class="carousel-control-prev" href="#carouselEventos" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselEventos" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -75,22 +107,46 @@
                         <div id="collapseMenu" class="collapse" aria-labelledby="headingOne"
                              data-parent="#accordion">
                             <div class="card-body">
-                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div id="carouselMenu" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img class="d-block w-100" src="img/arroz.png" alt="First slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Arroz de Marisco</p></h2>
+
+                                            </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="img/ensaladaffrutas.png" alt="Second slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Ensalda de Frutas</p></h2>
+
+                                            </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="img/lingua.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Linguado a la Plancha</p></h2>
+
+                                            </div>
                                         </div>
                                         <div class="carousel-item">
                                             <img class="d-block w-100" src="img/tomate.png" alt="Third slide">
+                                            <div class="carousel-caption d-none d-md-block">
+                                                <h2><p>Tomate Aliñada</p></h2>
+
+                                            </div>
                                         </div>
 
                                     </div>
+                                    <a class="carousel-control-prev" href="#carouselMenu" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselMenu" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -129,9 +185,9 @@
                                         <div class="card-body">
                                             <div class="form-group row">
                                                 <div class="col-md-6 offset-md-4">
-
                                                     <a href="{{ url('/login/facebook') }}" class="btn btn-primary">
                                                         Facebook</a>
+                                                    <p></p>
                                                     <a href="{{ url('/login/google') }}" class="btn btn-danger">
                                                         Google</a>
                                                 </div>
